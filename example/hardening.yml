@@ -1,12 +1,12 @@
 ---
-- hosts: hosts
+- hosts: all
   become: yes
   collections:
     - devsec.hardening
   roles:
     - os_hardening
 
-- hosts: hosts
+- hosts: all
   become: yes
   vars_files:
     - vars/sec.yml

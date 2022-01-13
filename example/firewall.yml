@@ -1,7 +1,0 @@
----
-- hosts: hosts
-  become: yes
-  vars_files:
-    - vars/fw.yml
-  roles:
-    - geerlingguy.firewall
