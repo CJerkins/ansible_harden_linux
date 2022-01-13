@@ -1,0 +1,14 @@
+---
+- hosts: hosts
+  become: yes
+  collections:
+    - devsec.hardening
+  roles:
+    - os_hardening
+
+- hosts: hosts
+  become: yes
+  vars_files:
+    - vars/sec.yml
+  roles:
+    - geerlingguy.security
