@@ -1,4 +1,4 @@
 # /bin/bash
 ansible-galaxy collection install devsec.hardening
 ansible-galaxy install geerlingguy.security
-ansible-galaxy install geerlingguy.firewall
+
